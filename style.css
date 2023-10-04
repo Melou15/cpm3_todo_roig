@@ -1,8 +1,30 @@
+.container{
+	text-align: center;
+}
+
 h1{
 	font-family: Young Sherif;
 	color: #F1A3AD;
 }
-
-.container{
-
+button{
+	margin-left: 10px;
 }
+
+button:hover {
+	background-color: #F1A3AD;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 5px;
+	padding: 10px;
+}
+
+.completed {
+	text-decoration: line-through; 
+}
+
